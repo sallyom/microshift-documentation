@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36037335-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-36037335-10');
+</script>
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.89.4" />
+
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+<link rel="canonical" type="text/html" href="https://microshift.io/docs/getting-started/">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/logo/favicon-16x16.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="mask-icon" href="images/logo/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
+
+<title>Getting Started | MicroShift</title><meta property="og:title" content="Getting Started" />
+<meta property="og:description" content="MicroShift system requirements and deployment" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://microshift.io/docs/getting-started/" /><meta property="og:site_name" content="MicroShift" />
+
+<meta itemprop="name" content="Getting Started">
+<meta itemprop="description" content="MicroShift system requirements and deployment"><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting Started"/>
+<meta name="twitter:description" content="MicroShift system requirements and deployment"/>
+
+
+
+
+
+<link rel="preload" href="/scss/main.min.caf3be444d71b5d7534d576e8c81ec6ebd24d7f8acef0079cc999a250d2950cf.css" as="style">
+<link href="/scss/main.min.caf3be444d71b5d7534d576e8c81ec6ebd24d7f8acef0079cc999a250d2950cf.css" rel="stylesheet" integrity="">
+
+
+<script
+  src="/js/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+
+
+
+<meta name="theme-color" content="#326ce5">
+
+
+
+
+
+
+<meta name="description" content="MicroShift system requirements and deployment">
+<meta property="og:description" content="MicroShift system requirements and deployment">
+<meta name="twitter:description" content="MicroShift system requirements and deployment">
+<meta property="og:url" content="https://microshift.io/docs/getting-started/">
+<meta property="og:title" content="Getting Started">
+<meta name="twitter:title" content="Getting Started">
+<meta name="twitter:image" content="/images/favicon.png" />
+
+<meta name="twitter:image:alt" content="MicroShift">
+
+<meta property="og:image" content="/images/favicon.png">
+
+<meta property="og:type" content="article">
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/css/jquery-ui.min.137b1c829b79d35bbaea89c94a60a56165e443ca5dd258afed9f60317c44cc98.css">
+
+
+  </head>
+  <body class="td-section">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark  flex-column flex-md-row td-navbar" data-auto-burger="primary">
+        <a class="navbar-brand" href="/"></a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			
+			
+			
+			
+			<li class="nav-item mr-2 mb-lg-0">
+				
+				<a class="nav-link active" href="/docs/getting-started/" >Getting Started</span></a>
+			</li>
+			
+			
+			
+			<li class="nav-item mr-2 mb-lg-0">
+				
+				<a class="nav-link active" href="/docs/home/" >MicroShift Documentation</span></a>
+			</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<button id="hamburger" onclick="kub.toggleMenu()" data-auto-burger-exclude><div></div></button>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            
+
+
+
+
+<div class="td-content">
+<div class="pageinfo pageinfo-primary d-print-none">
+<p>
+This the multi-page printable view of this section.
+<a href="#" onclick="print();return false;">Click here to print</a>.
+</p><p>
+<a href="/docs/getting-started/">Return to the regular view of this page</a>.
+</p>
+</div>
+
+
+
+<h1 class="title">Getting Started</h1>
+<div class="lead">MicroShift system requirements and deployment</div>
+
+
+
+
+    <ul>
+    
+  
+  
+  
+  
+
+  
+
+    </ul>
+
+
+<div class="content">
+      <h2 id="system-requirements">System Requirements</h2>
+<p>To run MicroShift, you need a machine with at least:</p>
+<ul>
+<li>a supported 64-bit<sup>2</sup> CPU architecture (amd64, arm64, or riscv64)</li>
+<li>a supported OS (see below)</li>
+<li>2 CPU cores</li>
+<li>2GB of RAM</li>
+<li>1GB of free storage space for MicroShift</li>
+</ul>
+<p><sup>2) 32-bit is <em>technically</em> possible, if you're up for the challenge.</sup></p>
+<h2 id="deploying-microshift-on-edge-devices">Deploying MicroShift on Edge Devices</h2>
+<p>For production deployments, we recommend (and only test) deploying MicroShift on RHEL 8, CentOS Stream 8, or Fedora 34+ using one of two methods:</p>
+<ul>
+<li>running containerized with <code>Podman</code></li>
+<li>installing via .rpm (e.g. for embedding MicroShift into an <code>rpm-ostree</code> image)</li>
+</ul>
+<p>Both methods feature a minimal resource footprint, a strong security posture, the ability to restart/update without disrupting workloads, and optionally auto-updates.</p>
+<h3 id="install-cri-o">Install CRI-O</h3>
+<p>MicroShift requires CRI-O to be installed and running on the host:</p>
+<ul class="nav nav-tabs" id="tabset-docs-getting-started-1" role="tablist"><li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#tabset-docs-getting-started-1-0" role="tab" aria-controls="tabset-docs-getting-started-1-0" aria-selected="true">RHEL</a></li>
+	  
+		<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#tabset-docs-getting-started-1-1" role="tab" aria-controls="tabset-docs-getting-started-1-1">Fedora</a></li>
+		<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#tabset-docs-getting-started-1-2" role="tab" aria-controls="tabset-docs-getting-started-1-2">CentOS 8 Stream</a></li></ul>
+<div class="tab-content" id="tabset-docs-getting-started-1"><div id="tabset-docs-getting-started-1-0" class="tab-pane show active" role="tabpanel" aria-labelledby="tabset-docs-getting-started-1-0">
+
+<p><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#a2f">command</span> -v subscription-manager &amp;&gt; /dev/null <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>    <span style="color:#666">&amp;&amp;</span> subscription-manager repos --enable rhocp-4.8-for-rhel-8-x86_64-rpms
+sudo dnf install -y cri-o cri-tools
+sudo systemctl <span style="color:#a2f">enable</span> crio --now
+</code></pre></div></div>
+  <div id="tabset-docs-getting-started-1-1" class="tab-pane" role="tabpanel" aria-labelledby="tabset-docs-getting-started-1-1">
+
+<p><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">sudo dnf module <span style="color:#a2f">enable</span> -y cri-o:1.21
+sudo dnf install -y cri-o cri-tools
+sudo systemctl <span style="color:#a2f">enable</span> crio --now
+</code></pre></div></div>
+  <div id="tabset-docs-getting-started-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-docs-getting-started-1-2">
+
+<p><div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">curl -L -o /etc/yum.repos.d/devel:kubic:libcontainers:stable.repo https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/CentOS_8_Stream/devel:kubic:libcontainers:stable.repo
+curl -L -o /etc/yum.repos.d/devel:kubic:libcontainers:stable:cri-o:1.21.repo https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable:cri-o:1.21/CentOS_8_Stream/devel:kubic:libcontainers:stable:cri-o:1.21.repo
+sudo dnf install -y cri-o cri-tools
+sudo systemctl <span style="color:#a2f">enable</span> crio --now
+</code></pre></div></div></div>
+
+<br/>
+<h3 id="deploying-microshift">Deploying MicroShift</h3>
+<ul class="nav nav-tabs" id="tabset-docs-getting-started-2" role="tablist"><li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#tabset-docs-getting-started-2-0" role="tab" aria-controls="tabset-docs-getting-started-2-0" aria-selected="true">Podman</a></li>
+	  
+		<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#tabset-docs-getting-started-2-1" role="tab" aria-controls="tabset-docs-getting-started-2-1">.rpm</a></li></ul>
+<div class="tab-content" id="tabset-docs-getting-started-2"><div id="tabset-docs-getting-started-2-0" class="tab-pane show active" role="tabpanel" aria-labelledby="tabset-docs-getting-started-2-0">
+
+<p><p>To have <code>systemd</code> start and manage MicroShift on Podman, run:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">sudo dnf install -y podman
+sudo curl -o /etc/systemd/system/microshift.service <span style="color:#b62;font-weight:bold">\
+</span><span style="color:#b62;font-weight:bold"></span>     https://raw.githubusercontent.com/redhat-et/microshift/main/packaging/systemd/microshift-containerized.service
+sudo systemctl <span style="color:#a2f">enable</span> microshift --now
+</code></pre></div></div>
+  <div id="tabset-docs-getting-started-2-1" class="tab-pane" role="tabpanel" aria-labelledby="tabset-docs-getting-started-2-1">
+
+<p><p>To have <code>systemd</code> start and manage MicroShift on an rpm-based host, run:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">sudo dnf copr <span style="color:#a2f">enable</span> -y @redhat-et/microshift
+sudo dnf install -y microshift firewalld
+sudo systemctl <span style="color:#a2f">enable</span> microshift --now
+</code></pre></div></div></div>
+
+<h3 id="install-clients">Install Clients</h3>
+<p>To access the cluster, install the OpenShift client or kubectl.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">curl -o oc.tar.gz https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/linux/oc.tar.gz
+sudo tar -C /usr/local/bin -xzvf oc.tar.gz
+sudo install -t /usr/local/bin <span style="color:#666">{</span>kubectl,oc<span style="color:#666">}</span>
+</code></pre></div><h3 id="copy-kubeconfig">Copy Kubeconfig</h3>
+<p>Copy the kubeconfig to the default location that can be accessed without administrator privilege.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">mkdir ~/.kube
+sudo cp /var/lib/microshift/resources/kubeadmin/kubeconfig ~/.kube/config
+sudo chown <span style="color:#b44">`</span>whoami<span style="color:#b44">`</span>: ~/.kube/config
+</code></pre></div><p>It is now possible to run kubectl or oc commands against the MicroShift environment.
+Verify that MicroShift is running:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">oc get pods -A
+</code></pre></div><h2 id="using-microshift-for-application-development">Using MicroShift for Application Development</h2>
+<p>For trying out MicroShift or using it as development tool, we provide a MicroShift image that bundles host dependencies like CRI-O
+and useful tools like the <code>oc</code> client, so it can run on most modern Linux distros, on MacOS, and on Windows with <code>podman</code> or <code>docker</code> installed.
+This bundled image is referred to as <code>aio</code> or <code>all-in-one</code> since it provides everything necessary to run MicroShift.
+The all-in-one image is meant for ephemeral test environments only. There is no way to update the image without disruption of workloads and loss of data.
+For production workloads, it is recommended to run with <a href="https://microshift.io/docs/getting-started/#launch-microshift-with-podman-and-systemd">MicroShift Containerized</a>.</p>
+<ul class="nav nav-tabs" id="tabset-docs-getting-started-3" role="tablist"><li class="nav-item"><a data-toggle="tab" class="nav-link active" href="#tabset-docs-getting-started-3-0" role="tab" aria-controls="tabset-docs-getting-started-3-0" aria-selected="true">Linux</a></li>
+	  
+		<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#tabset-docs-getting-started-3-1" role="tab" aria-controls="tabset-docs-getting-started-3-1">MacOS</a></li>
+		<li class="nav-item"><a data-toggle="tab" class="nav-link" href="#tabset-docs-getting-started-3-2" role="tab" aria-controls="tabset-docs-getting-started-3-2">Windows</a></li></ul>
+<div class="tab-content" id="tabset-docs-getting-started-3"><div id="tabset-docs-getting-started-3-0" class="tab-pane show active" role="tabpanel" aria-labelledby="tabset-docs-getting-started-3-0">
+
+<p><p><a href="https://podman.io/getting-started/installation#linux-distributions">Install <code>podman</code></a> if necessary, then run MicroShift using:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash"><span style="color:#a2f">command</span> -v setsebool &gt;/dev/null 2&gt;&amp;<span style="color:#666">1</span> <span style="color:#666">||</span> sudo setsebool -P container_manage_cgroup <span style="color:#a2f">true</span>
+sudo podman run -d --rm --name microshift --privileged -v microshift-data:/var/lib -p 6443:6443 quay.io/microshift/microshift-aio:latest
+</code></pre></div><br/>
+<p>You can then access your cluster either via the bundled <code>oc</code> (resp. <code>kubectl</code>) command</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">sudo podman <span style="color:#a2f">exec</span> -ti microshift oc get all -A
+</code></pre></div><br/>
+<p>or via an <code>oc</code> (resp. <code>kubectl</code>) client installed on the host:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">sudo podman cp microshift:/var/lib/microshift/resources/kubeadmin/kubeconfig ./kubeconfig
+oc get all -A --kubeconfig ./kubeconfig
+</code></pre></div></div>
+  <div id="tabset-docs-getting-started-3-1" class="tab-pane" role="tabpanel" aria-labelledby="tabset-docs-getting-started-3-1">
+
+<p><p><a href="https://docs.docker.com/desktop/mac/install/">Install <code>docker</code></a> if necessary, then run MicroShift using:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">docker run -d --rm --name microshift --privileged -v microshift-data:/var/lib -p 6443:6443 quay.io/microshift/microshift-aio:latest
+</code></pre></div><br/>
+<p>You can then access your cluster either via the bundled <code>oc</code> (resp. <code>kubectl</code>) command</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">docker <span style="color:#a2f">exec</span> -ti microshift oc get all -A
+</code></pre></div><br/>
+<p>or via an <code>oc</code> (resp. <code>kubectl</code>) client <a href="https://access.redhat.com/downloads/content/290/">installed</a> on the host:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">docker cp microshift:/var/lib/microshift/resources/kubeadmin/kubeconfig ./kubeconfig
+oc get all -A --kubeconfig ./kubeconfig
+</code></pre></div></div>
+  <div id="tabset-docs-getting-started-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-docs-getting-started-3-2">
+
+<p><p><a href="https://docs.docker.com/desktop/windows/install/">Install <code>docker</code></a> if necessary, then run MicroShift using:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">docker.exe run -d --rm --name microshift --privileged -v microshift-data:/var/lib -p 6443:6443 quay.io/microshift/microshift-aio:latest
+</code></pre></div><br/>
+<p>You can then access your cluster either via the bundled <code>oc</code> (resp. <code>kubectl</code>) command</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">docker.exe <span style="color:#a2f">exec</span> -ti microshift oc get all -A
+</code></pre></div><br/>
+<p>or via an <code>oc</code> (resp. <code>kubectl</code>) client <a href="https://access.redhat.com/downloads/content/290/">installed</a> on the host:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">docker.exe cp microshift:/var/lib/microshift/resources/kubeadmin/kubeconfig .<span style="color:#b62;font-weight:bold">\k</span>ubeconfig
+oc.exe get all -A --kubeconfig .<span style="color:#b62;font-weight:bold">\k</span>ubeconfig
+</code></pre></div></div></div>
+
+
+</div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+  
+
+  
+
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="d-print-none">
+  <div class="footer__links">
+    <nav>
+      
+      
+      <a class="text-white" href="/docs/home/">Home</a>
+      
+      <a class="text-white" href="/docs/community/">Community</a>
+      
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-sm-2 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
+    <a class="text-white" target="_blank" href="https://twitter.com/microshift_io">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Calendar" aria-label="Calendar">
+    <a class="text-white" target="_blank" href="https://calendar.google.com/calendar/embed?src=nj6l882mfe4d2g9nr1h7avgrcs%40group.calendar.google.com&amp;ctz=America%2FChicago">
+      <i class="fas fa-calendar-alt"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Youtube" aria-label="Youtube">
+    <a class="text-white" target="_blank" href="https://www.youtube.com/results?search_query=MicroShift&#43;Red&#43;Hat">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-2 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/redhat-et/microshift">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack" aria-label="Slack">
+    <a class="text-white" target="_blank" href="https://microshift.slack.com">
+      <i class="fab fa-slack"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-8 text-center order-sm-2">
+        <small class="text-white">&copy; 2022 </small>
+        
+          
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    
+<script src="/js/popper-1.14.3.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="/js/bootstrap-4.3.1.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.min.d450479ebf922238b0349336733304a8093ef200121614f1214a9d106d3775d0.js" integrity="sha256-1FBHnr&#43;SIjiwNJM2czMEqAk&#43;8gASFhTxIUqdEG03ddA=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/js/jquery-ui.min.c31ea7e64c1740bcef4b5af6b26f61e5b19ab33388395bc56d4ea49229c5b84d.js"></script>
+
+<script>$( function() { $( ".tabs" ).tabs();} ); </script>
+  </body>
+</html>
